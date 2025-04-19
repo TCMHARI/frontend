@@ -1,5 +1,5 @@
 const ApiInfo ={
-    apidomain:"http://localhost:4000",
+    apidomain:"e-commercebackend-production-f571.up.railway.app",
     apiaddon:"/api/v1"
 }
 const Api=ApiInfo.apidomain+ApiInfo.apiaddon
