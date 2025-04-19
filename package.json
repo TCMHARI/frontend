@@ -33,8 +33,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=--max-old-space-size=8192 react-scripts start",
-  "build": "DISABLE_ESLINT_PLUGIN=true NODE_OPTIONS=--max-old-space-size=4096 react-scripts build",
+    "start": "GENERATE_SOURCEMAP=false NODE_OPTIONS=--max-old-space-size=8192 react-scripts start",
+"build": "GENERATE_SOURCEMAP=false DISABLE_ESLINT_PLUGIN=true NODE_OPTIONS=--max-old-space-size=4096 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
